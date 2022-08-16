@@ -1,0 +1,131 @@
+.mynav-bar{
+    justify-content: flex-end;
+}
+.nav-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+.nav-list{
+    padding: 2px;
+}
+.nav-item-effects {
+    color:#666060ec !important;
+}
+.nav-item-effects:hover {
+    color:#000000ec !important;
+}
+.wrapper{
+    max-width: 80%;
+}
+.about-image{
+    width: 95%;
+    height: auto;
+    padding-top:15%;
+    padding-bottom: 20%;
+    padding-left: 7%;
+}
+.btns {
+    background-color:hsla(174, 59%, 47%, 0.91);
+    border-radius: 7px;
+    color: white;
+    border: none;
+    font-size: small;
+    width: 120px;
+    block-size: 35px;
+}
+.btns:hover {
+    background-color:hsla(174, 53%, 41%, 0.91);
+}
+.about-treva{
+    padding-top: 13%;
+    padding-bottom: 30px;
+}
+.head-wrapper{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.packages{
+    background-color:#f9f9f9ec;
+}
+.custom-cards{
+    display: flex;
+    /* flex-direction: column; */
+}
+.cards{
+    width: 33%;
+    height: auto;
+    box-shadow: 0px 4px 6px 0px  rgba(0,0,0,0.3);
+    border: 0px;
+    margin: 10px;
+}
+.cards:hover{
+    box-shadow: 0px 4px 8px 0px  rgba(1,1,1,0.4);
+}
+@media screen and (max-width: 800px) {
+    .custom-cards{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        
+    }
+    .cards{
+        width: 60%;
+        height: auto;
+        box-shadow: 0px 4px 6px 0px  rgba(0,0,0,0.3);
+        border: 0px;
+        margin: 10px;
+    }   
+}
+.subcription-section{
+    background-color: #31bdb0e8;
+    width: 100%;
+    height: 260px;
+}
+input[type=text]{
+    width: 30%;
+    border-radius: 3px;
+    border: none;
+    height: 45px;
+    padding-left: 15px;
+    /* text-align: center; */
+}
+.data-collect {
+   padding-top: 30px;
+    text-align: center;
+}
+.sub-button {
+    border: none;
+    width: 120px;
+    border-radius: 7px;
+    block-size: 40px;
+    background-color: black;
+}
+.contacts{
+    background-color: #030303e8;
+    width: 100%;
+    height: 200px;
+}
+.contact-icons{
+    
+    display: flex;
+    justify-content: center;    
+    
+    gap: 1rem;
+    font-size: larger;
+}
+.contact-links{
+    text-align: center;
+    padding: 0px;
+    margin-top: 0; 
+}
+.contact-links li{
+    display: inline;
+    font-size: x-small;
+}
+.contact-links a{
+    color: white;
+    text-decoration: none;
+}
